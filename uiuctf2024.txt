@@ -1,0 +1,46 @@
+6/28 to 6/30 uiuctf
+solved
+osint
+	hip w youth
+		instagram
+	unlikely partnership
+		linkedin
+	the weakest link
+		spotify friend activity
+	night
+		image from boston on bridge
+	chunky boi
+		military aircraft find flight from date on image
+misc
+	sanity check
+crypto
+	without a trace
+	determined
+		um some matrix math 
+	x marked the spot
+		some more matrix math 
+	naptime
+rev eng
+	summarize
+	
+	goose chase
+		unintended solution was just strings grep flag
+unsolved attempted in order of confidence/closeness
+	new dallas - find the right train bruh wuxi line 2 then baidu to find place
+	slot machine - figured out u just had to find a hash w repeating digits at the beginning
+		this is done by looking for the lowest hash number since it will have a bunch of 0's 
+		then u transform it into a hex lucky number by looking at how bitcoin uses them whichis dumb	
+	fare evasion - sqli and token combo
+		get token 
+		sqli injectioin of md5 hash
+		find string or hash that will allow us to inejct 
+		1. using 129581926211651571912466741651878684928 as the kid doing sqli
+		2. using ffifdyop from hashcrack as bad input we leak the conductor key 
+		conductor key is conductor_key_873affdf8cc36a592ec790fc62973d55f4bf43b321bf1ccc0514063370356d5cddb4363b4786fd072d36a25e0ab60a78b8df01bd396c7a05cccbbb3733ae3f8e
+		using this in the secret overrides and gives us the flag 
+		i was reallly close, just didnt realize the sqli was through the token and not debug
+
+thoughts
+  team - ShadowG
+  score was 3060 rank 115 
+  i also think we coulda gotten all 3 of the ones above that were attempted just needed patience
