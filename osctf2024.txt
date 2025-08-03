@@ -1,0 +1,126 @@
+osctf 7/13 16 hours 
+solved
+misc
+	weird video
+		actually a txt file with wrong extension
+		not my solve but easy
+	cyber quiz
+		make nc connection answer a bunch of question about cyber
+	find the flag
+		hidden in a commment on the homepage inspect
+		not my solve but easy 
+	cryptic pigeon
+		encrypted with pigeon cipher
+		OSCTF{P1GE0NG0BRRRR}	
+	findng the seed
+		use a seed cracker mod
+		not my solve
+crypto
+	cipher conundrum
+		couple of encodings wrapped
+		OSCTF{5o_M3nY_C1ph3Rsssss}
+	the scret message
+		math 
+		not my solve
+	efficient rsa
+		fermats theory 
+		OSCTF{F4ct0r1Ng_F0r_L1f3}
+	couple primes
+		more math 
+		OSCTF{m4y_7h3_pR1m3_10v3_34cH_07h3r?}
+osint
+	nice movie
+		theater closest
+		not my solve
+	the statue is repaired
+		reverse image 
+		not my solve
+	vietnam 1 
+		wikipedia
+		dont remember
+	vietnam 2
+		reverse image search
+		dont remember
+	vietnam 3
+		find bridges 
+		not my solve
+forensics
+	hidden soundwave
+		spectogram
+		dont remember
+	mysterious website incident
+		find log 
+		dont remember
+	cyberheist conspiracy
+		not my solve
+	phantom script intrustion
+		php decoder 
+		dont remember
+	pdf puzzle
+		exif find
+		not my solve
+	seele vellorei
+		move image 
+		dont remember
+web 
+	introspection
+		was in script 
+		not my solve
+	style query listing
+		sqli 
+		not my solve
+	indoor webapp
+		change id find flag
+		dont remember
+reversing
+	avengers assemble
+		some assembly code gross shit 
+		dont remember
+attempted not solved
+	misc bf
+		crack hash decode using base 92 flag
+	misc binary chaos
+		just binaryfuck plus patience so close
+	misc my dear friend
+		patienece of looking at gifs 
+	misc captured data
+		convert to binary 
+	misc sanity check
+		was hidden in the discord 
+	misc sanity check revenge
+		hidden in pfp on discord
+	misc find flag revenge
+		flagger.txt 
+	crypto love story
+		im not really sure tbh
+	crypto it ascii right
+		bit cheesy tbh
+	osint where is this
+		im p sure i had this right but ok
+	osint vietnam 4
+		look around + patience
+	osint food hacker
+		find right video bruh
+	osint vietnam 5
+		idk man look better
+	osint blue building
+		look better
+	forensics the lost image
+		was actually a jpeg nice bait
+	forensics qr code
+		recreate qr code 
+	forensics seele vellorei revenge
+		get hash crack it decode image data
+	web heads or tails
+		dirbust with head enabled think u can do w burp
+	reversing gophers
+		was grep flag ig
+	reversing another python game
+		decompile ig
+	reversing the broken sword
+		should have worked
+
+thoughts
+  team - ShadowG
+  we got 80th with 2870 points 
+  
