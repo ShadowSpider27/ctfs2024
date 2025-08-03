@@ -1,0 +1,153 @@
+wargames file 
+
+important linux commands to know in general 
+make directory: mkdir /path/dirname
+copy file to current directory: cp filename newlocation
+rename fil: mv originalFile NewNameFile
+run in background: &
+shbang =  #!/bin/bash
+in vim use :commandName to run commands  
+
+Host: bandit.labs.overthewire.org
+Port: 2220
+
+9/16 bandit start
+lvl 0 - log in using putty 
+lvl 1 - cat file password= NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+lvl 2 - cat special charcter file c.cat< < - ; password = rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+lvl 2 - cat spaces in file name password = aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+lvl 3 - hidden files c.ls-a; password = 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+lvl 4 - human readable(trial and errored file07) password = lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+lvl 5 - human readable,1033 bytes, no execute, c.find . -type f -size 1033c; password = P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+lvl 6 - search by group,user,size c.find  -type f -size 33c -group bandit6 -user bandit7 ; password=z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+lvl 7 - grep in a file c.grep searchterm filename; password=TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+lvl 8 - find uniq c. sort file | uniq -u; password=EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+lvl 9 - find string starting w char c.strings file | grep searchterm ; password=G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+lvl 10 - encrypted file c.base64 -d data.txt; password=6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+lvl 11 - caeser cypher online decoder password=JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+9/17
+lvl 12 - multiple compressions look at signature in each hexdump to understand which compression is used ; password=wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+lvl 13 - using a private ssh key to log into a user, parapharse = bandit13, passsword=fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+lvl 14 - netcat to localhost password = jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+lvl 15 - use openssl to connect c.openssl s_client -ign_eof -connect localhost:30001; password = JQttfApK4SeyHwDlI9SXGR50qclOAil1
+lvl 16 - use nmap to find port, openssl connect to port, give password get pk, log in using pk passphrase = bandit17 pk= bandit17file
+lvl 17 - use diff to find difference duh password=hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg but you cant log in connection will auto close
+lvl 18 - left off due to issues with putty
+
+9/18
+lvl 18 - using remote command in putty to ignore bashrc password=awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+lvl 19 - running a command as another user password=VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+lvl 20 - running nc in the background and listening for echo password=NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+lvl 21 - intro to cron jobs password=WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
+lvl 22 - understanding cron job filename=8ca319486bfbbc3663ea0fbe81326349 password=QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+lvl 23 - stuck cause of permission i think 
+
+9/19
+lvl 23 - idk why it didnt work before but create ssh script to read and copy file password=VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
+lvl 24 - see bandit 25 script lowkey i want this to be optimized so im not gonna finish it rn
+
+9/20
+lvl 24 - ran 4 versions of the script at the same time but its not very optimal, pincode=9708 password=p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d
+lvl 25 - using vim to get around more password = c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1
+lvl 26 - get a bash shell and get password in vim passsword=YnQpBuifNMas1hcUFk70ZmqkhUU2EuaS
+lvl 27 - git intro password=AVanL161y9rsbcJIsFHuw35rjaOM19nR
+lvl 28 - using git c.git logs; password=tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S
+lvl 29 - git branches c.branches-a, git checkout branchName; password=xbhV3HpNGlTIdnjUrdAlPzc2L6y9EOnS
+lvl 30 - git tag password=OoffzGDlzhAlerFJ2cAiz1D41JW1Mhmt
+lvl 31 - create and push a file to commit password=rmCBvG56y58BXzv98yZGdO7ATVL5dW8y
+lvl 32 - $0 has a reference to shell password=odHo63fHiFqcWWJG9rLiLDtPm45KzUKy
+lvl 33 - bandit donezo natas next 
+
+9/21 natas start
+lvl 0 - password in html code password=g9D9cREhslqBKtcA2uocGHPfMZVzeFK6 
+lvl 1 - in html use inspect shortcut password=h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7 
+lvl 2 - using /files on webpage password=G6ctbMJ5Nb4cbFwhpMPSvxGHhQ7I6W8Q
+lvl 3 - robot.txt is a thing ig password=tKOcJIbzM4lTs8hbCmzn5Zr4434fGZQm
+lvl 4 - burp suite again simple editing of referer password=Z0NsrtIkJoKALBCLi5eqFfcRN82Au2oD
+lvl 5 - similar to above cookie tho password = fOIvE0MDtPTgRhqmmvvAOt2EfXR6uQgR
+
+9/22 
+lvl 6 - file secret=FOEIUWGHFEEUHOFUOIU password=jmxSiH3SP6Sonf8dv66ng8v1cIEdjXWr
+lvl 7 - using php to load a file password=a6bZCNYwdKqN5cGP11ZdtPg0iImQQhAB
+lvl 8 - decode secret=oubWYf2kBq password=Sda6t0vkOPkM8YeOZkAGVhFoaplvlJFd
+lvl 9 - do tomorrow
+
+10/11 
+lvl 9 - exploiting php password=D44EcsFkLxPIkAAKLosx8z3hxX1Z4MCE
+lvl 10 - taking advantage of grep password=1KFqoJXi6hRaPluAmk8ESDW4fSysRoIg
+lvl 11- php script to find key then encode password=YWqo0pjpcXzSIl5NMAVxg12QxeC1w9QG
+lvl 12 - do tommorrow 
+
+10/12 
+lvl 12 - creating a php file disguised as a jpg file password=lW3jYRI02ZKDBb8VtQBU1f6eDRo6WEj9
+lvl 13 - using hexeditor to spoof jpg sig onto php file password=qPazSJBmrmU7UQJv17MHk1PGC4DxZMEP
+lvl 14 - sql injection or 1=1 type password=TTkaI7AWG4iDERztBcEyKV7kRXH1EZRB
+lvl 15 - blind sqli w sqlmap password=TRD7iZrd5gATjj9PkPEuaOlfEjHqj32V
+lvl 16 - this seems hard so i ahve to learn burp suite 
+
+10/20 
+lvl 16 - so it would be write a python program to brute force check w characters exist and then brute force the order  password=XkEuChE0SbnKBvH1RU7ksIb9uuLmI7sd
+lvl 17 - time based sql injection also stolen similar idea get chars then order password=8NEDUUxg8kFgPV84uLwvZkGn6okJQ6aq
+lvl 18 - weak session id brute force i think phpsessid was 119 password=8LMJEhKFbMKIL2mxQKjv0aEDdk7zpT0s
+lvl 19 - similar as before just generating a hex phpsessid was 281 password=guVaZ3ET35LbgbFMoaN5tFcYT1jEP7UH
+lvl 20 - um idk what im looking at i think looks like code injection to get session id file to get session id but idk
+
+10/21 
+lvl 20 - foo + new line password=89OWrTkGmiLZLv12JY4tLj2c4FW0xn56
+lvl 21 - session hijacking password=91awVM9oDiUGm33JdzM7RVLBS8bz9n0s 
+lvl 22 - get request something password=qjA8cOoKFTzJhtV0Fzvt92fgvxVnVRBj
+lvl 23 - string handling password=0xzF30T9Av8lgXhW7slhFCIsVKAPyl2r
+lvl 24 - breakign strcmp by using an array password=O9QD9DZBDq1YpswiTM5oqMDaOtuZtAcx
+
+10/22 
+lvl 25 - php form injection to directory traversal password=8A506rfIAXbKKk68yJeuTuRq4UfcK70k
+
+
+11/4 
+lvl 26 - taking advantage of serialization and logger password=PSO8xysPi00WKIiZZ6s6PtRmFy9cbxj3
+lvl 27 - sql vulnerability of truncation and white space password=skrwxciAe6Dnb0VfFDzDEHcCzQmv3Gd4
+lvl 28 - ecb exploit using sql injection combined with bypassing input validation password=pc0w0Vo0KpTHcEsgMhXu2EwUzyYemPno
+lvl 29 - idk perl man adn this series is gettin crazy
+
+ll/10 
+lvl 29 - basically perl injection password=Gz4at8CdOYQkkJ8fJamc11Jg5hOnXM9X
+lvl 30 - sql injection by taking advantage of quote password=AMZF14yknOn9Uc57uKB02jnYuhplYka3
+lvl 31 - i would say its a perl hijack type thing password=Yp5ffyfmEdjvTOwpN5HCvh7Ctgf9em3G
+lvl 32 - similar to above into rce password=APwWDD3fRAf6226sgBOBaSptGwvXwQhG
+lvl 33 - break the file checker and rce with a php file password=F6Fcmavn8FgZgrAPOvoLudNr1GwQTaNG
+oh we done w natas cool leviathan next 
+
+11/11
+lvl 1 - grep a file password=PPIfmI1qsA
+lvl 2 - follow a program using ltrace password= mEh5PNl10e
+lvl 3 - this is enough for now i think its some thing of ltrace again
+
+11/14 
+lvl 3 - file link because of security vulnerability password=Q0G8j4sakn
+lvl 4 - ltrace again password=AgvropI4OA
+lvl 5 - binary password = EKKlTF1Xqs
+lvl 6 - file link again password= YZ55XPVk2l
+lvl 7 - little brute force thing password=8GpZ5f8Hze
+done w leviathan we do krypton next which is crypto so fun
+lvl 0 - KRYPTONISGREAT
+
+11/15 
+lvl 1 - rot13 using cyberchef password=  ROTTEN LEVEL TWO PASSWORD ROTTEN nah this is dumb btw its literally rotten not the whole thing
+lvl 2 - kind of cheesed using cyber but whatever password=CAESARISEASY
+lvl 3 - frequency analysis that would take forever WELLDONETHELEVELFOURPASSWORDISBRUTE password=brute
+lvl 4 - vigenere cooked w key frekey and password = cleartext
+lvl 5 - vigener cooked w key keylength and password = random
+lvl 6 - honestly too much work but its a stream cipher so cool password=LFSRISNOTRANDOM
+done w krypton narnia next 
+
+11/17 um idk 
+lvl 0 -  starting point (python3 -c 'print(20*"A" + "\xef\xbe\xad\xde")';) |./narnia0 THIS xde string is broken please why
+
+
+
+11/20 
+lvl 0 - no more efad beef,  utf encoding is dumb basically bit sizes were weird password=eaa6AjYMBB key=AAAAAAAAAAAAAAAAAAAAﾭ޵ efbeadde using python will be python3
+
+11/21 
+lvl 1 - shellcode bind shell took a while tbh to find proper shell code password=Zzb6MIyceT process = export EGG=$(echo -e '\x6a\x0b\x58\x99\x52\x66\x68\x2d\x70\x89\xe1\x52\x6a\x68\x68\x2f\x62\x61\x73\x68\x2f\x62\x69\x6e\x89\xe3\x52\x51\x53\x89\xe1\xcd\x80')
