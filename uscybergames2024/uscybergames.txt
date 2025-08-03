@@ -1,0 +1,78 @@
+beginner rooms for us cybergames 5/31 - 6/9
+secret(forensics) - pdf highlight  
+	FLAG: SIVBGR{C0nta1n_Th3_Al13ns}
+hunt(web) - look through the site,p1 was hidden in html p2 was robots.txt p3 was hidden site with js file 
+	flag is SIVBGR{r1s3_0f_th3_r0b0ts!} p1 was hidden in html p2 was robots.txt p3 was hidden site
+the email where it happens(forensics) - pcap extract data decrpyt base 32 
+	flag is SIVBGR{wh0_n33ds_32_b4s3s}
+babys first rsa - rsa decrypt
+	flag is SIVBGR{D0nt_F0rg37_T0_P4D!!!}
+aes-no - aes decryption  
+	flag is SIVBGR{IV_B33n_H3r3_B3f0r3}
+you have mail - email stuff
+	flag is SIVBGR{th3_ev1d3nc3_1s_h3r3}
+prime time- rsa again 
+	flag is SIVBGR{h1dd3n_f4c70r5}
+Let em cook - base 64 base 85 keyboard change, ascii shift of 64 
+	flag is SIVBGR{N0W_Y0U_C@N_C00K_2}
+spreading out - p1 robots SIVBGR{ARIA_1s p3 readme _4lw4ys_4nd p4 sitemap.xml _c4nnot_b3
+	flag is
+flag checker - 
+		flag is SIVBGR{pyth0n_r3v3rs1ng_pr0}
+math reversal - hexrays decompiler ask ai get answer 
+	flag is SIVBGR{v3ry_d1ff1cult_passw0rd}
+xorcellent flag checker - hexrays into chatgpt get answer
+	flag is SIVBGR{x0r_B@s1cs_R3v}
+
+super dupper quick maths - write script to answer math questions
+	flag is SIVBGR{L00kM0m!_ICANDO_m4th}
+whats diffie - netcat not working but should get messages?
+	diffie and hellman key crypto
+	then take shared key to message 
+	flag is SIVBGR{4_fl4g_fr0m_4l1c3_4nd_b0b}
+i want to believe - gif thing
+control panel - annoying command injection
+	flag is SIVBGR{g00dby3_ARI4}
+abbotts memeory - bulk extractor search through
+	flag is SIVBGR{A1I3N5_At3_My_H0M3W0rK}
+
+real competetioin 6/3 - 6/9 
+redundant - look at image ig
+	flag is sivuscg{1nv4ld_chunk5_l0l}
+unravel - follow the pcap bruh
+	login - shadowspider2
+	 password-shadow2
+	using the below get requests get the flag and key value
+ 		xor encrypted flag:4d5b44001404081952590003685600055e0d530552565d530453005c004a
+		xor key: 856abadb45ad7751
+		GET /admin/products?search=widget%27%20UNION%20SELECT%20NULL,xor_encrypted_flag,NULL,NULL%20FROM%20xord_flag-- HTTP/1.1
+		GET /admin/products?search=widget%27%20UNION%20SELECT%20NULL,key,NULL,NULL%20FROM%20xor_encryption_key-- HTTP/1.1
+	use a xor decipher thing to get UNRAVELED FLAG:unravel{flag_47037da9cd5d1c4d}
+	create a post request that submits unraveled 
+		POST /api/submit_flag
+		Content-Type: application/json
+
+		{
+		"decrypted_flag": "unravel{example_flag}"
+		}
+	flag is SIVUSCG{r3vers3_att@cks_c@sh_ch3cks}
+dingotron - use window function to get every function then use 
+	flag is SIVUSCG{d1ng_d1ng_d1ng_d1ng}
+tubes - basically u just  pcap the connectiona nd view packet ssh -i id_uscg uscg@tubes.challs.uscybergames.com 'tcpdump -w -' > capture.pcap
+	flag is SIVUSCG{t0t4lly_tub4l4r}
+emoticonsole -  pycdc is a decompiler
+	decompiled file, rebuilt it with given input banged my head untill we learned input is flag and u need to find input using runtime.py 
+	flag is SIVUSCG{em0t1on4l_d4m4g3}
+encryptomatic - so aes brute forces are basially impossible but ecb is crackable 
+	size changes on the 9th byte
+	block size is 16
+	flag size is 39
+timing is everything - look at the time delta to ascii 
+	flag is SIVUSCG{T1m1n9_15_3v3ryth1n9}
+emoticonsole2 - similar to emoticonsole1
+spider - seems like a decompile file and inspect it angle at the moment using relyze
+
+thoughts 
+  this is the first ctf i ever did
+	aggregate rank is 93 
+	comp rank is 117 i think
