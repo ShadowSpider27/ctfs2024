@@ -1,1 +1,2 @@
 # ctfs2024
+This a repo of various ctfs i have participated in. Included are mainly text files with short descriptions of challenge solution and some solution scripts Team name - ShadowG(consists of me and PatrykG) In order of participation: Wargames - bandit(common linux tricks), natas(web), leviathan, krytpon(crypto), narnia(code vulns) dodcybersentinel - indiv 65th uscybergames - indiv aggregate rank is 93, comp rank is 117 uiuctf - team rank 115 ductf - team rank 156 osctf - team rank 80 imaginaryctf - team rank 533 backdoorctf - team rank 226
