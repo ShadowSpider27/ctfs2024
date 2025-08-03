@@ -1,0 +1,6 @@
+#!/bin/bash
+set -x #echo on
+for i in {100..999};
+do
+        echo "VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i" | nc localhost 30002 -w 2
+done
