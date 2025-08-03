@@ -1,0 +1,53 @@
+osint challenge 1
+	plate says paul bakery 
+	location is 1275 K St NW, 1275 K St NW, Washington, DC 20005 from picture cross check
+	using wigle u get the information on the guest network 
+	answer is 6C:CD:D6:BD:5B:51
+
+osint challenge 2
+	plane image shows runway, reverse search tells me ukraine or russia pat said ukraine
+	wiki look through every base till we find 
+	answer is UKLS
+
+web security printer 1
+	files are hidden from web scrapers in a robots.txt file to disallow access
+	navigating to robots.txt said notes.txt was disallowed
+	going to notes.txt password was AES5I64X1EL
+	entering in the host flag was C1{pr1nt1ng_fl4g5}
+
+forensics filing problem 1
+	downloaded file, virus totaled alt names, figured out dat and pdf
+	repaired pdf and copy pasted data 
+	flag is C1{c0rrup7ion_4nd_r3dac7tion}
+
+network and recon header hinterlands
+	downloaded tar and loaded into docker
+	run the docker locally 
+	get network request header 
+	flag is encoded and decoded as C1{am@z1ng_wh@t_u_c@n_h1d3_1n_h3@d3rs}
+
+network and reccon packers paradox
+	downloaded and unzipped in kali
+	unpacked with upx gave file 
+	search file 
+	flag is C1{N0t_$uch_a_Parad0x_Aft3rall}
+network and reccon ephemeral
+	nmap scan then nc
+	flag is C1{ch3ck_4ll_p0rts!}
+
+important document
+	found something base64 
+	was flag C1{h0p3_y0u_d1dnt_us3_4_r431_p4ssw0rd}
+
+malware ferromagnetic 
+	unzipped with encryption key
+	copy paste into cyber
+	base 64 then xor then base 64 
+	flag C1{malware_obfuscat10n_4nd_m4n1pul4ti0n!}
+exfil 
+	attempted
+
+thoughts 6/18
+  also my 1st ctf
+	was really fun enjoyed also was 65th
+
