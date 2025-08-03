@@ -1,0 +1,79 @@
+ductf 7/5 - 7/7
+solved
+beginner
+	tdlr please summarise
+		hidden phrase in word doc 
+		DUCTF{chatgpt_I_n33d_2_3scap3}
+	parrot the emu
+		server side template injection
+		{{ config.__class__.__init__.__globals__['os'].popen('cat flag').read() }}
+	sun zi 
+		math first answer was 1385 some chinese remainder theory thing 
+	zoo feedback form
+		xml injection i think
+		not my solve
+	shuffle box
+		some crypto type thign
+		not my solve could be done by hand tho
+	number mashing
+		big number limit breaks it
+		DUCTF{w0w_y0u_just_br0ke_math!!}
+	intercepted transmissions
+		ccir476 australia version build library then decode
+		DUCTF{##TH3 QU0KK4'S AR3 H3LD 1N F4C1LITY #11911!}
+misc
+	discord
+		find in discord
+		DUCTF{f1r57_0f_m4ny}
+	survey
+		was survey
+		dont remember
+	wacky recipe
+		chef is a esolang, you just test around with it basically but was annoying af
+		DUCTF{2tsp_Vegemite}
+	dnadecay
+		 some ruby code fixing	
+forensics
+	baby first forensics
+		wireshark tool was nikto/2.1.6
+		DUCTF{nikto_2.1.6}
+	sam i am
+		impacket secretsdump the hashes from the backup files then crack the hash
+		DUCTF{!checkerboard1}
+	bad policies
+		find the cpass then decrpt it using gpp-decrypt
+		DUCTF{D0n7_Us3_P4s5w0rds_1n_Gr0up_P0l1cy}
+	macro magic
+		understand function from macros and reverse it with xor and key 
+		DUCTF{M4d3_W1th_AI_by_M0nk3ys}
+osint
+	off the ramp
+		photo info
+		not my solve
+	city views
+		find hotel and then look perspective
+		ductf{Hotel Indigo Melbourne on Flinders}
+	bridget lives
+		singapore bridge 
+		not my solve
+	back to the jungle
+		youtube vid showed website visit find flag
+		DUCTF{wIr_G0iNg_b4K_t00_d3r_jUNgL3_mIt_d15_1!!111!}
+	marketing
+		twitter video 
+		not my solve
+attempted not solved 
+	osint theyre making decoys
+		brooms head road is hint just search google maps close not patient enough
+	hardware + osint sounds nice
+		fccid gives us 1.ATS2853 2.EDF54 which we found
+		then find audio module and lok at info was close just not patient enough
+	forensics emuc2
+		add sslkeylog file to wireshark then inspect pcap
+		find site hosting api
+		using the wireshark to view all sites search for jwt token forge token
+		get into site not that hard was close just a bit lost at api/env
+
+thoughts
+    team - ShadowG
+  2136 points 156th place, 
